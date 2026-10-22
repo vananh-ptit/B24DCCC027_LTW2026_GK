@@ -1,6 +1,5 @@
 import { MILESTONES, PRIZES } from './data';
 
-
 export const calcPrize = (correctCount, reason) => {
   if (reason === 'win') return PRIZES[PRIZES.length - 1];
   
